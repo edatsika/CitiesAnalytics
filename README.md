@@ -2,13 +2,8 @@
 
 ## Overview
 
-This project aggregates city-level metrics using data fetched from **DBpedia** and processed with **Hadoop streaming**. Metrics include:
-
-- Total number of events per city  
-- Average air quality index (AQI)  
-- Events per 100k population  
-
-SPARQL is used in a preprocessing step to fetch city metadata, which is then combined with local event data in Hadoop.
+This project aggregates city-level metrics using data fetched from **DBpedia** and processed with **Hadoop streaming**. 
+This project processes city data from DBpedia to calculate event statistics and air quality indicators. It uses Hadoop Streaming for map-reduce processing and Python for mapper and reducer scripts. The workflow is containerized with Docker, including services for Hadoop (namenode, datanode) and a SPARQL client to fetch city data.
 
 ---
 
