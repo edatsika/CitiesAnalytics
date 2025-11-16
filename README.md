@@ -1,4 +1,4 @@
-# City Analytics with DBpedia & Hadoop Streaming
+# City Analytics
 
 ## Overview
 
