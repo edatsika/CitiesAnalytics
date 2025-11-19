@@ -1,4 +1,4 @@
-# City Analytics
+# Cities Analytics
 
 ## Overview
 
